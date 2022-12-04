@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <mate name="viewport" content="width=device-width , initial-scale=1"></mate>
+    <title>Page Title</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--header section start -->
+    <header>
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="index.html" class="logo">Jackson Wang<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="product.html">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+</body>
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> Jackson WANG</h1>
+
+    <div class="row">
+
+        <!--<div class="post-container">
+
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/ClODm96LLE2/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/ClODm96LLE2/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/ClODm96LLE2/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Jackson Wang (@jacksonwang852g7)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script> 
+        </div>-->
+
+        <div class="content">
+            <img src="image/mudance.webp" alt="">
+            <h3>Early years of experience</h3>
+            <p>Born in Hong Kong, China, Wong Ka Yee fell in love with fencing at the age of 10 after first coming into contact with it in a primary school hobby class. He won an individual gold medal in the men's 17-year-old category at the Asian Youth Championships at the age of 17, and won three Asian titles, three national titles and nine international and Hong Kong titles during his career. In 2011, he travelled to Korea to become a trainee and spent two and a half years as a trainee.
+                In September 2013, he participated in the recording of the trainee debut show "Win: Who is next", where he competed with YG's trainees in a skills competition.</p>
+            
+            <br><br>
+
+            <h3>Performing Arts Experience</h3>
+            <p>  On January 1, 2014, JYP announced the debut of the 7-member boy group GOT7; on January 5, Wang Jiaer's profile and teaser photos were released on JYP's official website; on January 16, Wang Jiaer completed his debut stage with GOT7 on the Mnet music show M! On April 4, he held two showcases in Japan with GOT7; on June 23, he released the group's second Korean mini album "Got Love (GOT♡)" with GOT7; in July, he participated in the recording of MBC every1 variety show "Idol of the Week" 3rd anniversary special "HIT Maker", forming a limited group with Roh Singjae, N and huk. In September, he appeared as a regular guest on SBS's reality variety show "Roommate Season 2"; on October 22, he released the group's first Japanese single "AROUND THE WORLD" with GOT7, thus officially entering the Japanese music scene; on November 18, he released the group's first Japanese single "AROUND THE WORLD" with GOT7. In December, he participated in the MBC every1 variety show "HIT Maker Season 2" and released the group's second single "Squid Dashi"</p>
+            
+            <br><br>
+            
+            <p>  On 27 January 2015, his youth school magic web series Dream Knight premiered; on 17 May, Wang Jiaer began to be a regular host of the SBS music program Popular Songs; on 10 June, he released the group's second Japanese single LOVE TRAIN with GOT7; on 10 July, he participated in the variety show On July 13, he released the group's third Korean mini album "Just right" with GOT7; at the same time, Wang Jiaer also went to Nicaragua to participate in the recording of SBS variety show "Kim Byung-man's Law of the Jungle"; on September 29, he released the group's fourth Korean mini album "Mad" with GOT7, and the album's title track "If You Do" was released on the music chart. On November 23, GOT7 released a new version of their album "MAD Winter Edition". On December 3, Wang Jiaer and He Gui co-hosted the celebrity food talk show "Please Refrigerator", which premiered on Tencent Video.</p>
+            
+            <br><br>
+
+            <p>  On March 21, 2016, GOT7 released their fifth Korean mini-album "FLIGHT LOG: DEPARTURE"; in April, Wang Jiaer and He Gui co-starred for the second time in Hunan TV's celebrity food and entertainment show "Freshly Dripped Sunday" as the leader of the Freshly Dripped Squad; on May 18, Wang Jiaer and He Gui co-hosted the celebrity food talk show "Please Refrigerator On July 15, his outdoor reality show "Let's Fight" premiered on Jiangsu TV; on September 27, he released his second Korean album "FLIGHT LOG:TURBULENCE" with GOT7, which included the song "Boom x3" written and composed by Wang Jiaer; on December 10, he won the Tencent Video On December 10, he was awarded the Variety Star of the Year Award at the Starlight Awards.</p>
+            
+            <br><br>
+            
+            <img src="image/with TW.jpg" alt="">
+
+            <p>  On January 16, 2017, he won the Sina Weibo Night Popular Artist of the Year Award; on March 13, he released his sixth mini album "FLIGHT LOG: ARRIVAL" with GOT7, which included the song "OUT" composed and arranged by Wang Jiaer; on March 25, Wang Jiaer officially resumed his activities after taking a few days off due to health problems; 
+                <br><br>on April 12, Wang Jiaer's "Please Refrigerator Season 3", which he co-hosted with He Gui, was broadcast on Tencent Video [45]; on April 26, Wang Jiaer wrote the lyrics and sang the song "Please Refrigerator Season 3". On April 12, Wang Jiaer's celebrity food talk show "Please Refrigerator Season 3", co-hosted with He Gui, premiered on Tencent Video; on April 26, Wang Jiaer wrote the lyrics and sang the theme song of "Please Refrigerator Season 3", "Please Refrigerator", which was released online; 
+                <br><br>in June, he participated in the recording of Youku's BETA variety show "Super Next Gen Idol" as a flying guest; on July 4, he released his solo On July 19, he was the guest host of the Asian Golden Melody Awards and won the MTV Special Award, his first solo music award;
+                <br><img src="image/JW2017.webp" alt="">
+                <br><br> on August 26, he released his solo single "Papillon"; on September 2, his participation in the hiphop music talent show "China has Hip Hop" was broadcast on Aiki Yi, with Wang Jiaer On August 30, he performed the theme song "Kyushu Sky City" for the handheld game "Kyushu Sky City 3D"; on September 5, JYP Entertainment announced that Wang Jiaer would no longer participate in the activities of GOT7 in Japan; 
+                <br><br>on November 10, he participated in the Double 11 Carnival Night, performing his original single "(V) ision"; on November 13, he became the official ambassador of the 2017 MTV EMA European Music Awards Greater China; on November 19, he participated in the MIGU Lin Rhino Night holographic concert; on November 20, he was invited to attend the AMA National Music Awards ceremony; on November 22, he won the 14th MAHB Annual Mr. Musician of the Year Award; on November 23, he won the Netease Annual Attitude On November 23, he won the Netease Annual Hip Hop Artist of the Year Award; on November 30, he released his single "OKAY"; 
+                <br><br>on December 2, he won the Golden Song of the Year Award at the Akiyay Scream Night; on December 3, he won the Breakthrough Singer of the Year Award at the Tencent Video Starlight Awards; on December 16, he won the Best Breakthrough Singer of the Year at the MIGU Festival; on December 27, he released the single "MOOD", a collaboration with Meng Jia.</p>
+
+            <p> On 16 February, he participated in the MOKO countdown to welcome the New Year; on 17 February, he attended the Chinese New Year International Performance Night and made his debut on the float; on 4 March, he was invited to the adidas Originals launch party and announced his role as the adidas Originals Greater China Original Icon; on 17 March, he was invited to the adidas Originals launch party and announced his role as the adidas Originals Greater China Original Icon. On March 17, he joined "Hot Blooded Street Dance" as a hot blooded caller; 
+                <img src="image/dawnofus.jpg" alt="">
+                <br><br>on April 20, his solo single "Dawn of us" was released worldwide; on April 29, he released his single "Lucky Rain" in collaboration with Yuan Yawei; on May 27, he participated in the premiere of the variety show "Let Me Go Season 3"; 
+                <br><br>on August 13, he won the National Teen Choice Award for Tomorrow's Stars, becoming the first Chinese to win the award at the National Teen Choice Awards; on August 13, he became the first Chinese to win the award at the National Teen Choice Awards. On August 13, he won the Star of Tomorrow Award at the National Teen Choice Awards, becoming the first Chinese person to win the award. 
+                <br><br>In November, Wang Jiaer collaborated with American rapper Gucci Mane to release the single "Different Game"; in the same year, Wang Jiaer participated in Zhejiang TV's inspirational music competition reality show "The Voice of Dreams Season 3" as an "X mentor", adapting and singing "Damn Tender" and "Quiet".</p>
+
+            <p>On 14 January 2019, the song "Red", which he co-wrote and performed with ICE, went online; he then served as a mentor on Youku Video's original musician competitive growth show "This! is Original"; on 16 March, he was voted as the 9th most handsome 100 faces in Asia Pacific by LikeTCCAsia; in March, he held his first solo birthday concert; on 11 June, his single "Rumble" with GoldLink was released. 
+                <br><br>In August, the 2019 Forbes China Celebrity List was released and Wang Jiaer was ranked 40th; on 24 September, the title track of his debut digital album "BULLET TO THE HEART" was released online; on 25 October, his debut solo album "MIRRORS" was released. in October, songs such as "Tequila Sunrise" and "Walking" were released.</p>
+            
+            <P>On January 11, 2020, he won the Sina Weibo Night Weibo God of the Year; on January 24, he participated in the "2020 Spring Festival Gala of China Central Radio and Television", performing in the song and dance "The Beginning of Youth"; on March 20, he released his solo English single "100Ways"; in June, he participated in the Tencent Video celebrity food talk show "Please Refrigerator Season 6"; on July 3, he participated in the Zhejiang On July 3, he participated in the outdoor competition reality show "Run for it Season 4" on Zhejiang TV; on July 10, he participated in the Youku video youth youth dreaming growth variety show "The Name of Youth" as a youth starter/flying mentor; on July 18, he participated in the Youku video street dance selection reality show "This!
+                <br><br>On August 17, he attended the Dongfang TV Suning Live Party and performed "Dance Break" and "100Ways"; on September 4, he released his English single "Pretty Please", which broke the Mediabase top 10 on the US radio dance charts; on September 19, he attended the Zhejiang TV "Baidu Curious Night" party and performed "DWAY! On December 17, Jackson Wang released his Chinese single "Over" together with JJ Lin.</P>
+                
+                
+                
+                <a href="https://en.wikipedia.org/wiki/Jackson_Wang" class="btn">learn more about his albulm</a>
+        </div>
+    </div>
+</section>
