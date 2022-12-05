@@ -68,4 +68,23 @@ But for the bugs or problems I discovered during my testing, when I see through 
 ## Credits
 
 ### Content
--
+- The text for section#home.home is copied from Team Wang article(https://teamwangdesign.com/pages/about-team-wang)
+- The content for section#home.home.p is reference from Wikipedia(https://en.wikipedia.org/wiki/Jackson_Wang)
+
+
+### Media
+- The image for the products used in this site were obtained from (https://shop.jackson-wang.com/)
+- The photos used in this site were obtained from :
+    + ![Alt text](image/100%20ways.webp)
+    + [label](image/blue.jpg%0D) 
+    + [label](image/cuatomer1.jpg%0D) 
+    + [label](image/customer2.jpg%0D)
+    + [label](image/customer3.jpg%0D) 
+    + [label](image/dawnofus.jpg%0D)
+    + [label](image/Jackson-Blow-Publicity-2.webp%0D) 
+    + [label](image/JW.jpg%0D) 
+    + [label](image/JW2017.webp%0D)
+    + [label](image/mudance.webp%0D)
+    + [label](image/stage.jpg%0D) 
+    + [label](image/with%20TW.jpg%0D) 
+  
