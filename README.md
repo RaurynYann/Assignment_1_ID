@@ -58,5 +58,14 @@ From this section, is going to describing about my testing process such as:
    1. Try to click to every header to check whether it can link to the correct page or not.
    2. Also try to click the quick link below to check whether it can link to correct link below or not.
 
-## Site owner's goal
-The website owner can sell the user the artist's albums.
+3. Contact Info:
+   1. Try to click in the infomation in the contact Info to check it can link to correct page or not
+
+In addition, in this section my project look smaller when it is in phone size. 
+
+But for the bugs or problems I discovered during my testing, when I see through phone size the photo will be block by the outline. But the word will not effect that much.
+
+## Credits
+
+### Content
+-
