@@ -25,7 +25,12 @@ In this section, I will go over the different parts of my project, and describe 
 In addition,  I also think about some additional features to be implemented in the future to let user can post and comment on the website.
 
 ### Features Left to Implement
-- 
+- feature 1 - to let user to communicate inside the website.
+- feature 2 - to let user post the picture or the video about Jackson in the website to share to each other.
+- feature 3 - to have a detail infomation for the Jackson's albulm.
+- feature 4 - have a gallery about Jackson.
+- feature 5 - let the website can be multi languages so that every country's fans can use this website.
+- feature 6 - prices can be switched at will to a variety of other countries.
 
 
 ## Site owner's goal
