@@ -175,6 +175,7 @@ header .fa-bars{
 
 .about{
     background-color: #555 ;
+    position: absolute;
 }
 
 .about .row{
@@ -557,6 +558,10 @@ header .fa-bars{
         clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
+    .about .row .content img .jw1{
+        position: absolute;
+    }
+    
     header .navbar a{
         margin:1.5rem;
         padding:1.5rem;
