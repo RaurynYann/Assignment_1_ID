@@ -32,6 +32,31 @@ In addition,  I also think about some additional features to be implemented in t
 - feature 5 - let the website can be multi languages so that every country's fans can use this website.
 - feature 6 - prices can be switched at will to a variety of other countries.
 
+## Technologies Used
+- Wikipedia(https://en.wikipedia.org/wiki/Jackson_Wang)
+   + The project uses **Wikipedia** to get more infomation about Jackson Wang 
+
+- cdnjs(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css)
+   + The project uses **cdnjs** to get the icon from it.
+  
+- W3C Validator(https://validator.w3.org/#validate_by_upload+with_options)
+   + The project uses **W3C Validator** to check whether have error in the html file or not.
+
+- Jigsaw Validator(https://jigsaw.w3.org/css-validator/)
+   + The project uses **Jigsaw Validator** to check whether have error in the css file or not.
+
+## Testing
+From this section, is going to describing about my testing process such as:
+
+1. Contact form:
+   1. Go to the 'Contact' page
+   2. Try to submit the empty form, and verify that an error message about the required fields appears.
+   3. Try to type in word to a number box and make sure the box did not fill in.
+   4. try to type in difference type of input to the form and submit it to check whether can submit in or not
+
+2. Header :
+   1. Try to click to every header to check whether it can link to the correct page or not.
+   2. Also try to click the quick link below to check whether it can link to correct link below or not.
 
 ## Site owner's goal
 The website owner can sell the user the artist's albums.
